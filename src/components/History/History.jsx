@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
-import {getHistoryLS} from './functions';
+import {getHistoryLS} from '../../utils/functions';
+
 function History() {
     const history=getHistoryLS();
     return (
