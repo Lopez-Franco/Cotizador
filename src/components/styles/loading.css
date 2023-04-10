@@ -1,0 +1,16 @@
+.spinnerLoading {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 122, 179, 0.2);
+    border-top-color: rgb(0, 122, 179);
+    animation: spin 1s ease-in-out infinite;
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

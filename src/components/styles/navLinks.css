@@ -1,0 +1,30 @@
+.container-navbar{
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+}
+.div-link{
+  margin-right: 20px;
+}
+.link {
+    margin-right: 10px;
+    color: rgb(0, 122, 179);
+    text-decoration: none;
+    font-size:larger;
+    font-weight: 500;
+    transition: all .3s ease;
+  }
+  
+  .link:hover {
+    color: white;
+    background-color: rgb(0, 122, 179);
+    border-radius: 30px;
+    padding: 8px 12px;
+  }
+  
+  .nav-line {
+    background: linear-gradient(to right, rgb(0, 122, 179), rgb(230, 244, 246), rgb(0, 122, 179));
+    height: 5px;
+    width: 100%;
+  }
+  

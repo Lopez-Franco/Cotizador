@@ -1,0 +1,23 @@
+.container-formInsurance{
+    background-color: rgb(230,244,246);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-formInsurance label{
+    color: rgb(0,122,179);
+    font-weight: bold;
+}
+.container-formInsurance div{
+    display: flex;
+    flex-flow: column;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.container-formInsurance button {
+    border-color: rgb(0,122,179);
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
